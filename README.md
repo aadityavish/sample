@@ -1,1 +1,108 @@
-# sample
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yatharth & Aaditya's Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #2c3e50, #3498db);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 28px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  background-color: #222;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.home-section {
+  background-image: url('https://images.unsplash.com/photo-1549924231-f129b911e442');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+.contact-box {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  line-height: 1.8;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    Yatharth & Aaditya's Official Blog
+  </header>  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section id="home" class="home-section">
+    Welcome to our website ✨
+  </section>  <section id="about">
+    <h2>About Us</h2>
+    <p style="max-width: 700px; margin: 20px auto; font-size: 18px;">
+      We are <strong>Yatharth Parmar</strong> and <strong>Aaditya Vishvakarma</strong>, two friends with a shared passion for technology. We are both 14 years old and studying in the same school. With a basic foundation in coding, we are currently diving into the world of web development. We believe in learning by doing, and this website is a small step in our journey to become skilled developers.
+    </p>
+  </section>  <section id="contact">
+    <h2>Contact & Counseling</h2>
+    <div class="contact-box">
+      <p><strong>Yatharth Parmar (Phone / WhatsApp):</strong> 9479513320</p>
+      <p><strong>Aaditya Vishvakarma (Phone):</strong> 9754378910</p>
+      <p><strong>Payment Number:</strong> 7999611032</p>
+      <p><strong>Email for Counseling:</strong> parmaryatharth677@gmail.com</p>
+    </div>
+  </section>  <footer>
+    &copy; 2025 Yatharth & Aaditya. All Rights Reserved.
+  </footer>
+</body>
+</html>
